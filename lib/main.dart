@@ -1,7 +1,13 @@
+
+import 'package:first_app/pages/challange_one.dart';
+import 'package:first_app/pages/container_page.dart';
 import 'package:first_app/pages/image_page.dart';
 import 'package:first_app/pages/main_page.dart';
+import 'package:first_app/pages/sample_page.dart';
 import 'package:first_app/pages/text_page.dart';
 import 'package:flutter/material.dart';
+
+import 'pages/column_page.dart';
 
 void main(){
   runApp(MainApp());
@@ -15,7 +21,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImagePage(),
+      home: SamplePage(),
     );
   }
 }

@@ -9,7 +9,7 @@ class ImagePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Widget Gambar"),
       ),
-      body: Image.network("https://alamendah.org/wp-content/uploads/2013/04/mewarnai-kupu-kupu-01.gif"),
+      body: Center(child: Image.network("https://alamendah.org/wp-content/uploads/2013/04/mewarnai-kupu-kupu-01.gif" )),
     );
   }
 }
